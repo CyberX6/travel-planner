@@ -12,12 +12,7 @@ const compat = new FlatCompat({ baseDirectory: __dirname });
 const eslintConfig = [
   { ignores: ['components/ui/**/*'] },
 
-  ...compat.extends(
-    'next/core-web-vitals',
-    'next/typescript',
-    'standard',
-    'prettier'
-  ),
+  ...compat.extends('next/core-web-vitals', 'next/typescript', 'prettier'),
 
   {
     plugins: {
