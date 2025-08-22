@@ -46,7 +46,7 @@ lib/
   countries.ts (REST Countries search)
   store.ts (Zustand store + persistence)
   utils.ts (downloadJson)
-public/
+config/
   blocked-routes.json
 ```
 
@@ -62,20 +62,20 @@ public/
 
 ### 1) Install deps
 ```bash
-yarn
-# or: npm i
+npm i
+# or: yarn
 ```
 
 ### 2) Dev server
 ```bash
-yarn dev
+npm run dev
 # open http://localhost:3000
 ```
 
 ### 3) Build & start
 ```bash
-yarn build
-yarn start
+npm run build
+npm run start
 ```
 
 ## Rules JSON
