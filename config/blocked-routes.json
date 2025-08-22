@@ -1,0 +1,7 @@
+{
+  "allowLoops": false,
+  "blockedPairs": [
+    { "from": "ESP", "to": "GRC" },
+    { "from": "USA", "to": "PRK" }
+  ]
+}
